@@ -1,12 +1,10 @@
-import { generateRandomSignals } from "./utils/randomSignalsGenerator";
+import CandlestickChart from "./components/Candlestick/CandlestickChart";
 
 function App() {
   return (
-    <div>
-      <button onClick={() => console.dir(generateRandomSignals(1))}>
-        Generate
-      </button>
-    </div>
+    <>
+      <CandlestickChart />
+    </>
   );
 }
 
